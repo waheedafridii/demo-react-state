@@ -9,10 +9,6 @@ function Room() {
         console.log('Button Click');
         setLit(!isLit);
     }
-    const increaseAge = () => {
-        console.log('Button Click of Age');
-        setAge(++age);
-    }
 
     return (
         <div className={`room ${isLit ? "lit" : "dark"}`}>
